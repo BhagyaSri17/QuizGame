@@ -1,15 +1,12 @@
 import React from "react";
-import Header from "./DigitalCard/DigitalCardHeader.js";
-import Content from "./DigitalCard/DigitalCardContent.js";
-import "./DigitalCard/DigitalCard.css";
+import Main from "./Quiz/Main.js";
+
+import "./Quiz/quiz.css";
 const App=()=>{
    return (
-      <div className="Main">
-      <div className="MainContent">
-    <Header/>
-     <Content/>
-   </div>
-   </div>
+      
+    <Main/>
+ 
    )
 }
 export default App
